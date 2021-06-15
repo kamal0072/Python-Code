@@ -61,21 +61,49 @@
 # show()
 # print("The Global Variable Outside Function:",name)
 
-a=20
-b="Kamal"
-c=23.50000544545
-d=-10+10j
+# a=20
+# b="Kamal"
+# c=23.50000544545
+# d=-10+10j
 
-print("d is a complex number")  
-print("a","=",type(a),
-    "b","=",type(b),
-    "c","=",type(c),
-    "d","=",type(d),
-    isinstance(d,complex)
-    )
-print(
-    "Id of a=",id(a),
-    "Id Of b=",id(b),
-    "Id Of c=",id(c),
-    "Id Of d=",id(d))
-print("")
+# print("d is a complex number")  
+# print("a","=",type(a),
+#     "b","=",type(b),
+#     "c","=",type(c),
+#     "d","=",type(d),
+#     isinstance(d,complex)
+#     )
+# print(
+#     "Id of a=",id(a),
+#     "Id Of b=",id(b),
+#     "Id Of c=",id(c),
+#     "Id Of d=",id(d))
+# print("")
+
+# a=0
+# try:
+#     b=1/a
+#     raise Exception("Can not do it")
+# except:
+#     print("All Is Not Ok")
+# finally:
+#     print('All Okey')
+
+# import calendar as cal  
+# print(cal.month_name[5])  
+
+x = 0b10100 #Binary Literals  
+y = 100 #Decimal Literal   
+z = 0o215 #Octal Literal  
+u = 0o12   #Hexadecimal Literal  
+  
+#Float Literal  
+float_1 = 100.5   
+float_2 = 1.5e5 
+  
+#Complex Literal   
+a = 5+3.14j  
+  
+print(x, y, z, u)  
+print(float_1, float_2)  
+print(a, a.imag, a.real)  
