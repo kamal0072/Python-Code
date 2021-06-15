@@ -20,9 +20,7 @@
 # print(type(first_name))
 # print(type(roll))
 
-a=10
+a=b=c=d=10,30,20,30
+print(a,b,c,d)
+print(type(a))
 print(a)
-print(id(a))
-a=52
-print(a)
-print(id(a))
