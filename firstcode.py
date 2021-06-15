@@ -64,10 +64,18 @@
 a=20
 b="Kamal"
 c=23.50000544545
-print(a,b,c)
-print(type(a))
-print(type(b))
-print(type(c))
-print(id(a))
-print(id(b))
-print(id(c))
+d=-10+10j
+
+print("d is a complex number")  
+print("a","=",type(a),
+    "b","=",type(b),
+    "c","=",type(c),
+    "d","=",type(d),
+    isinstance(d,complex)
+    )
+print(
+    "Id of a=",id(a),
+    "Id Of b=",id(b),
+    "Id Of c=",id(c),
+    "Id Of d=",id(d))
+print("")
