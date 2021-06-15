@@ -51,12 +51,23 @@
 # del name
 # print(name)
 
-name="peter"
-def show():
-    # global name
-    name="bablu"
-    # global name
-       #local Variable
-    print("The Global Variable Inside Function:",name)
-show()
-print("The Global Variable Outside Function:",name)
+# name="peter"
+# def show():
+#     # global name
+#     name="bablu"
+#     # global name
+#        #local Variable
+#     print("The Global Variable Inside Function:",name)
+# show()
+# print("The Global Variable Outside Function:",name)
+
+a=20
+b="Kamal"
+c=23.50000544545
+print(a,b,c)
+print(type(a))
+print(type(b))
+print(type(c))
+print(id(a))
+print(id(b))
+print(id(c))
