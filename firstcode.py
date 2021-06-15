@@ -20,7 +20,31 @@
 # print(type(first_name))
 # print(type(roll))
 
-a=b=c=d=10,30,20,30
-print(a,b,c,d)
-print(type(a))
-print(a)
+# a=b=c=d=10,30,20,30
+# print(a,b,c,d)
+# print(type(a))
+# print(a)
+
+#type of varialbles
+#local Variables
+
+# def school():
+#     x=10
+#     return x  #this is local scope/variable
+#     print(x)
+# var=school()
+# print("The Valuse of variables is:",var)
+# print(x) #trying to access local variable so that got err
+
+
+
+name="peter" #This is Global variable
+def school(name):
+    global name
+    print(name)
+    x=10
+    return x  #this is local scope/variable
+    print("The Global Variable Is:",name)
+var=school("name")
+print("The Valuse of variables is:",var)
+print(name) #trying to global local variable so that got err
