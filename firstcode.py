@@ -38,13 +38,25 @@
 
 
 
-name="peter" #This is Global variable
-def school(name):
-    global name
-    print(name)
-    x=10
-    return x  #this is local scope/variable
-    print("The Global Variable Is:",name)
-var=school("name")
-print("The Valuse of variables is:",var)
-print(name) #trying to global local variable so that got err
+# name="peter" #This is Global variable
+# def school(name):
+#     # global name
+#     print(name)
+#     x=10
+#     return x  #this is local scope/variable
+#     print("The Global Variable Is:",name)
+# var=school("name")
+# print("The Valuse of variables is:",var)
+# print(name) #trying to global local variable so that got err
+# del name
+# print(name)
+
+name="peter"
+def show():
+    # global name
+    name="bablu"
+    # global name
+       #local Variable
+    print("The Global Variable Inside Function:",name)
+show()
+print("The Global Variable Outside Function:",name)
