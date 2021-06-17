@@ -107,3 +107,86 @@
 # print(x, y, z, u)  
 # print(float_1, float_2)  
 # print(a, a.imag, a.real)  
+
+
+# conditional statements
+
+# x=int(input("Enter Your Age:"))
+# y=int(input("Enter Your Age:"))
+# z=int(input("Enter Your Age:"))
+# # name=input("enter your name=")
+# if x>y and x>z:
+#     print(" x is oldest")
+# if y>x and y>z:
+#     print("Y Is oldest ")
+# if z>x and z>y:
+#     print("z is oldest")
+
+# a=int(input("Enter Your age of a="))
+# b=int(input("Enter Your age of b="))
+# c=int(input("Enter Your age of c="))
+
+# if a>b or b>c:
+#     print("a is right")     
+
+# x=int(input("Enter The value of x:"))
+# if x%2==0:
+#     print("So x is even")
+# else:
+#     print("then x is not even")
+
+# x=int(input("Enter x:"))
+# y=int(input("Enter y:"))
+
+# if x>y:
+#     print("X is right")
+# elif x>=y:
+#     print("x is may be right")
+# else:
+#     print("x must be wronmg")
+
+
+
+
+
+
+#looping starts here
+# name=[45,8,8,5]
+# list1=[55,45,23.4]
+# for x in name:
+#     print(x)
+# print("-------")
+# for y in list1:
+#     print(y)
+
+# z=name+list1
+# print(z)
+# for val in z:
+#     print(val)
+
+# x=[45,4.4,23,45]
+# for mul in x:
+#     res=mul+10
+#     print(res)
+
+# list = [10,30,23,43,65,12]  
+# sum = 0  
+# for i in list:  
+#     sum = sum+i  
+# print("The sum is:",sum)  
+
+# lis1=['kk','hj','jha']
+
+# for x in range(len(lis1)):
+#     print(list[x])
+
+# list = ['Peter','Joseph','Ricky','Devansh']  
+# for i in range(len(lis1)):  
+#     print("Hello",list[i])  
+
+
+# rows=int(input("Enter Number of rows:"))
+# for i in range(0,rows+1):
+#     for j in range(i):
+#         print("*",end='')
+#     print("")
