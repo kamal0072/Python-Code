@@ -92,18 +92,18 @@
 # import calendar as cal  
 # print(cal.month_name[5])  
 
-x = 0b10100 #Binary Literals  
-y = 100 #Decimal Literal   
-z = 0o215 #Octal Literal  
-u = 0o12   #Hexadecimal Literal  
+# x = 0b10100 #Binary Literals  
+# y = 100 #Decimal Literal   
+# z = 0o215 #Octal Literal  
+# u = 0o12   #Hexadecimal Literal  
   
-#Float Literal  
-float_1 = 100.5   
-float_2 = 1.5e5 
+# #Float Literal  
+# float_1 = 100.5   
+# float_2 = 1.5e5 
   
-#Complex Literal   
-a = 5+3.14j  
+# #Complex Literal   
+# a = 5+3.14j  
   
-print(x, y, z, u)  
-print(float_1, float_2)  
-print(a, a.imag, a.real)  
+# print(x, y, z, u)  
+# print(float_1, float_2)  
+# print(a, a.imag, a.real)  
